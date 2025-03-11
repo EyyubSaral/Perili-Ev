@@ -7,7 +7,7 @@ export default function HouseCard({ houseData, index, array }) {
   return (
     <>
       <p>
-        {index + 1}/{array.length}
+        {array.length}/{index + 1}
       </p>
       <img src={houseData.image} alt={houseData.location} />
       <div>
